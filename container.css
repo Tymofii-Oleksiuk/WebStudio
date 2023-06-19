@@ -1,0 +1,66 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    margin: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.service {
+    background-color: #2f303a;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
+}
+
+.details-title{
+    margin-top: 94px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.occupation{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.occupation-title{
+    margin-bottom: 50px;
+}
+
+.command{
+    background-color: #F5F4FA;
+    padding: 94px 0px 94px 0px;
+}
+
+.command-title{
+    margin-bottom: 50px;
+}
+
+.command-article{
+    background-color: #FFFFFF;
+}
+
+.command-img{
+    margin-bottom: 30px;
+}
+
+.command-discription{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-list{
+    margin-top: 20px;
+    
+}

@@ -1,5 +1,10 @@
-body {
-    font-family: "Roboto";
+.container{
+    margin-left: 215px;
+    margin-right: 215px;
+}
+body{
+    width: 1600px;
+    height: 2346px;
 }
 
 .logo-black {
@@ -37,18 +42,20 @@ body {
     color: #2196f3;
 }
 
-.service {
-    background: #2f303a;
-}
-
 .service-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color: #ffffff;
+    text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
 }
 
-.service-button {
+.service-btn {
+    text-align: center;
+    border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
