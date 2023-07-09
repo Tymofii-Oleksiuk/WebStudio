@@ -11,17 +11,27 @@
     text-decoration: none;
 }
 
-.nav-link {
+.nav-link-text{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
 }
 
-.nav-link:hover {
+.nav-link-text:hover{
     color: #2196f3;
 }
 
+.nav-link-text-1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.nav-link-text-1:hover{
+    color: #2196f3;
+}
 .info-link {
     font-weight: 500;
     font-size: 14px;
@@ -30,6 +40,17 @@
 }
 
 .info-link:hover {
+    color: #2196f3;
+}
+
+.info-link-1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.info-link-1:hover {
     color: #2196f3;
 }
 
@@ -67,6 +88,10 @@ text-transform: uppercase;
     line-height: 1.16;
     color: #212121;
 }
+.comannd{
+   background-color:  rgba(245, 244, 250, 1);
+   background: #F5F4FA;
+}
 
 .command-title {
     font-weight: 700;
@@ -87,6 +112,17 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.18;
     color: #212121;
+}
+
+.command-img{
+    width: 270px;
+    height: 260px;
+}
+
+.command-article{
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .command-discription {
