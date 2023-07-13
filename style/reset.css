@@ -1,7 +1,6 @@
-body {
-    font-family: "Roboto";
+body{
+    font-family: Roboto;
 }
-
 a{
     text-decoration: none;
 }
@@ -15,6 +14,3 @@ ul,ol{
     margin: 0%;
 }
 
-li{
-    margin: auto;
-}

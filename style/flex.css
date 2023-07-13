@@ -15,7 +15,10 @@
 }
 
 .logo{
+    display: flex;
     margin-right: 93px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link-text-1{
@@ -111,9 +114,36 @@
 
 .button-list{
     display: flex;
-    
+    margin-right: 8px;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
-.button-list{
+
+.button-element{
+    margin-right: 8px;
+    align-items: center;
+}
+
+.img-list{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.img-item1{
+    margin-right: 30px;
+}
+
+.img-vew{
+    width: 370px;
+}
+
+.portfolio-discription{
+    padding-bottom: 20px;
+    padding-top: 4px;
+}
+
+.portfolio-title{
+    padding-top: 20px;
 }
