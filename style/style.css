@@ -1,0 +1,265 @@
+.logo-black {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.logo {
+    color: #2196f3;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-link-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.nav-link-text:hover {
+    color: #2196f3;
+}
+
+.nav-link-text-1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.nav-link-text-1:hover {
+    color: #2196f3;
+}
+
+.info-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.info-link:hover {
+    color: #2196f3;
+}
+
+.info-link-1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.info-link-1:hover {
+    color: #2196f3;
+}
+
+.service-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.service-btn {
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #ffffff;
+    background-color: #2196f3;
+}
+
+.details-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.details-item::before {
+    display: block;
+    background-image: url(../img/antena.png);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    content: "";
+}
+
+.details-item1::before{
+    display: block;
+    background-image: url(../img/clock.png);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    content: "";
+}
+
+.details-item2::before{
+    display: block;
+    background-image: url(../img/service-computer.png);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    content: "";
+}
+
+.details-item3::before{
+    display: block;
+    background-image: url(../img/astronaut.png);
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    content: "";
+}
+
+
+.details-list{
+    display: flex;
+    gap: 30px;
+}
+
+.occupation-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121;
+}
+
+.comannd {
+    background-color: rgba(245, 244, 250, 1);
+    background: #f5f4fa;
+}
+
+.command-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #212121;
+}
+
+.command-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.command-item {
+    gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #212121;
+}
+
+.command-img {
+    width: 270px;
+    height: 260px;
+}
+
+.command-article {
+    border-radius: 0px 0px 4px 4px;
+    background: #fff;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.command-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.footer {
+    background: #2f303a;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #ffffff;
+}
+
+.footer-list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.mail-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-link:hover {
+    color: #2196f3;
+}
+
+.tel-link:hover {
+    color: #2196f3;
+}
+
+/*  Portfolio  */
+
+.button-element {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+
+.button-element:hover {
+    color: #ffffff;
+    background: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.portfolio-discription {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
+.white-logo {
+    color: #ffffff;
+}
+
+.why-us-list-discription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}

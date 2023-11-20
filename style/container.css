@@ -1,0 +1,52 @@
+.container{
+    width: 1170px;
+    margin: 0 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list-menu{
+    padding: 25px 0px;
+}
+
+.nav-link-text{
+    padding: 32px 0px;
+}
+section{
+    outline: solid green;
+}
+
+.service{
+    background-image: url(../img/background-service.jpg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.service-box{
+    padding-left: 237px;
+    padding-right: 237px;
+}
+
+.details{
+    padding: 94px 0px;
+}
+
+.occupation{
+    padding-bottom: 94px;
+}
+
+.command{
+    padding: 94px 0px;
+}
+
+.footer{
+    padding: 60px 0px;
+}
+
+
+

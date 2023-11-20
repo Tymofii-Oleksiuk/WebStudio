@@ -1,0 +1,157 @@
+.header-nav {
+    display: flex;
+}
+
+.nav-list-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 344px;
+
+}
+
+.nav-list-info {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: 93px;
+    align-items: center;
+}
+
+.nav-link-text-1 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-link-1 {
+    margin-right: 50px;
+}
+
+.service-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-btn {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.details-list {
+    display: flex;
+}
+
+.details-item {
+    flex-wrap: wrap;
+}
+
+.details-title {
+    margin-bottom: 10px;
+}
+
+
+
+.occupation-title {
+    display: flex;
+    justify-content: center;
+}
+
+.occupation-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: auto;
+}
+
+.command-title {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.command-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.command-item {
+    display: flex;
+    justify-content: center;
+}
+
+.command-discription {
+    display: flex;
+    padding: 10px 0 30px 0;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.footer-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-address {
+    padding-top: 20px;
+}
+
+.mail-link {
+    padding: 9px 0px;
+}
+
+/* Портфоліо */
+
+.button-list {
+    display: flex;
+    margin-right: 8px;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+
+.button-element {
+    margin-right: 8px;
+    align-items: center;
+}
+
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.img-item {
+    border: 1px solid #EEE;
+    background: #FFF;
+    width: 370px;
+    height: 404px;
+}
+
+.img-item:hover {
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+.img-vew {
+    width: 370px;
+}
+
+.portfolio-discription {
+    padding-bottom: 20px;
+    padding-top: 4px;
+}
+
+.portfolio-title {
+    padding-top: 20px;
+}
