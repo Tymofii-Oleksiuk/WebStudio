@@ -1,23 +1,19 @@
-.container{
+.container {
     width: 1170px;
     margin: 0 15px;
-    outline: solid red;
     margin-left: auto;
     margin-right: auto;
 }
 
-.nav-list-menu{
+.nav-list-menu {
     padding: 25px 0px;
 }
 
-.nav-link-text{
+.nav-link-text {
     padding: 32px 0px;
 }
-section{
-    outline: solid green;
-}
 
-.service{
+.service {
     background-image: url(../img/background-service.jpg);
     height: 600px;
     display: flex;
@@ -27,26 +23,23 @@ section{
     background-size: contain;
 }
 
-.service-box{
+.service-box {
     padding-left: 237px;
     padding-right: 237px;
 }
 
-.details{
+.details {
     padding: 94px 0px;
 }
 
-.occupation{
+.occupation {
     padding-bottom: 94px;
 }
 
-.command{
+.command {
     padding: 94px 0px;
 }
 
-.footer{
+.footer {
     padding: 60px 0px;
 }
-
-
-

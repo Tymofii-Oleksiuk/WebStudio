@@ -70,13 +70,16 @@
 }
 
 .service-btn {
-    text-align: center;
-    border-radius: 4px;
-    font-weight: 700;
+    color: #FFF;
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.87;
-    color: #ffffff;
-    background-color: #2196f3;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .details-title {
@@ -95,7 +98,7 @@
     content: "";
 }
 
-.details-item1::before{
+.details-item1::before {
     display: block;
     background-image: url(../img/clock.png);
     width: 270px;
@@ -104,7 +107,7 @@
     content: "";
 }
 
-.details-item2::before{
+.details-item2::before {
     display: block;
     background-image: url(../img/service-computer.png);
     width: 270px;
@@ -113,7 +116,7 @@
     content: "";
 }
 
-.details-item3::before{
+.details-item3::before {
     display: block;
     background-image: url(../img/astronaut.png);
     width: 270px;
@@ -123,7 +126,7 @@
 }
 
 
-.details-list{
+.details-list {
     display: flex;
     gap: 30px;
 }
@@ -136,9 +139,9 @@
 }
 
 .comannd {
-    background-color: rgba(245, 244, 250, 1);
-    background: #f5f4fa;
+    background: #F5F4FA;
 }
+
 
 .command-title {
     font-weight: 700;
@@ -230,6 +233,7 @@
     color: #212121;
     background: #f5f4fa;
     border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .button-element:hover {
@@ -238,6 +242,7 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    padding: 6px 25px;
 }
 
 .portfolio-title {
@@ -245,12 +250,14 @@
     font-size: 18px;
     line-height: 2;
     color: #212121;
+    margin-left: 24px;
 }
 
 .portfolio-discription {
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
+    margin-left: 24px;
 }
 
 .white-logo {
