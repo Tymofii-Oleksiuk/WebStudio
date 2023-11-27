@@ -2,11 +2,16 @@
     display: flex;
 }
 
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 344px;
+}
+
 .nav-list-menu {
     display: flex;
     align-items: center;
-    margin-right: 344px;
-
+    gap: 50px;
 }
 
 .nav-list-info {
@@ -54,11 +59,9 @@
     margin-bottom: 10px;
 }
 
-
-
 .occupation-title {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .occupation-list {
@@ -99,34 +102,29 @@
 }
 
 .footer-address {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .mail-link {
-    padding: 9px 0px;
+    margin: 9px 0px;
 }
 
 /* Портфоліо */
 
 .button-list {
-    display: flex;
-    margin-right: 8px;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
 }
 
-
-.button-element {
-    margin-right: 8px;
-    align-items: center;
+.button-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
 .img-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px;
 }
 
 .img-item {
@@ -148,10 +146,10 @@
 }
 
 .portfolio-discription {
-    padding-bottom: 20px;
-    padding-top: 4px;
+    margin-bottom: 20px;
+    margin-top: 4px;
 }
 
 .portfolio-title {
-    padding-top: 20px;
+    margin-top: 20px;
 }
