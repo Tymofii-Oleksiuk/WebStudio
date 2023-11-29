@@ -7,7 +7,7 @@
 
 .header {
     border-bottom: 1px solid #ECECEC;
-    ;
+    height: 80px;
 }
 
 .nav-list-menu {
@@ -15,11 +15,14 @@
 }
 
 .service {
-    background-image: url(../img/background-service.jpg);
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.40),
+            rgba(47, 48, 58, 0.40)),
+        url(../img/background-service.jpg);
     height: 600px;
     display: flex;
     align-items: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
