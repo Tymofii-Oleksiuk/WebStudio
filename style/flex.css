@@ -6,7 +6,7 @@
 .header-box {
     display: flex;
     justify-content: space-between;
-    gap: 344px;
+    gap: 318px;
 }
 
 .nav-list-menu {
@@ -19,6 +19,22 @@
 .nav-list-info {
     display: flex;
     align-items: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.header-contacts:hover {
+    fill: #2196F3;
 }
 
 .logo {
@@ -94,7 +110,7 @@
 
 .command-discription {
     display: flex;
-    padding: 10px 0 30px 0;
+    padding: 10px 0 16px 0;
     flex-direction: row-reverse;
     justify-content: center;
 }
