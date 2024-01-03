@@ -6,7 +6,6 @@
 .header-box {
     display: flex;
     justify-content: space-between;
-    gap: 318px;
 }
 
 .nav-list-menu {
@@ -19,33 +18,26 @@
 .nav-list-info {
     display: flex;
     align-items: center;
+    gap: 50px;
+    margin-left: 318px;
 }
 
-.info-item {
+.header-link-info {
     display: flex;
     align-items: center;
 }
 
-.header-contacts {
+.header-icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     fill: #757575;
 }
 
-.header-contacts:hover {
-    fill: #2196F3;
-}
-
 .logo {
     display: flex;
     margin-right: 93px;
     align-items: center;
-}
-
-.nav-link-text-1 {
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .info-link-1 {

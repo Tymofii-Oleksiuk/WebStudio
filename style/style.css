@@ -24,6 +24,10 @@
     color: #2196f3;
 }
 
+.nav-link-text:focus {
+    color: #2196f3;
+}
+
 .info-link {
     font-weight: 500;
     font-size: 14px;
@@ -31,20 +35,29 @@
     color: #757575;
 }
 
-.info-link:hover {
-    color: #2196f3;
+.header-link-info:hover .info-link {
+    color: #2196F3;
 }
 
-.info-link-1 {
+.header-link-info:hover .header-icon {
+    fill: #2196F3;
+}
+
+.header-link-info:focus .info-link {
+    color: #2196F3;
+}
+
+.header-link-info:focus .header-icon {
+    fill: #2196F3;
+}
+
+.info-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
 }
 
-.info-link-1:hover {
-    color: #2196f3;
-}
 
 .service-title {
     font-weight: 900;
@@ -258,7 +271,7 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    padding: 6px 25px;
+    cursor: pointer;
 }
 
 .portfolio-title {
@@ -309,11 +322,20 @@
     height: 20px;
 }
 
-.command-icon:hover {
+.icon-link:hover .command-icon {
+    fill: white;
+}
+
+.icon-link:focus .command-icon {
     fill: white;
 }
 
 .icon-link:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
+.icon-link:focus {
     background-color: #2196F3;
     border-radius: 50%;
 }
@@ -328,7 +350,8 @@
     gap: 30px;
 }
 
-.customers-item {
+.customers-link {
+    display: block;
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
@@ -340,8 +363,22 @@
     height: 60px;
 }
 
-.customers-icon:hover {
+.customers-link:hover .customers-icon {
     fill: #2196F3;
+}
+
+.customers-link:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+}
+
+.customers-link:focus .customers-icon {
+    fill: #2196F3;
+}
+
+.customers-link:focus {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
 }
 
 .customers-title {
@@ -371,11 +408,15 @@
     padding: 12px;
     width: 44px;
     height: 44px;
-}.footer-link:hover{
+}
+
+.footer-link:hover {
     background: #2196F3;
 }
 
-
+.footer-link:focus {
+    background: #2196F3;
+}
 
 .footer-icon {
     fill: white;
