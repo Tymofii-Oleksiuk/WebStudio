@@ -5,7 +5,8 @@
 
 .header-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 318px;
 }
 
 .nav-list-menu {
@@ -19,7 +20,6 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-left: 318px;
 }
 
 .header-link-info {
@@ -28,6 +28,7 @@
 }
 
 .header-icon {
+    display: block;
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -138,19 +139,27 @@
     gap: 30px;
 }
 
-.img-item {
+.img-focus {
+    display: block;
     border: 1px solid #EEE;
     background: #FFF;
     width: 370px;
     height: 404px;
 }
 
-.img-item:hover {
+.img-focus:hover {
+    display: block;
     border: 1px solid #EEE;
     background: #FFF;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
+.img-focus:focus {
+    display: block;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 
 .img-vew {
     width: 368px;

@@ -143,11 +143,36 @@
     gap: 30px;
 }
 
+.occupation-item{
+    position: relative;
+}
 .occupation-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: #212121;
+}
+
+.occupation-name {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.occupation-mini-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 370px;
+    top: 223px;
+    padding: 27px 0;
+    background: rgba(47, 48, 58, 0.80);
 }
 
 .comannd {
@@ -266,6 +291,15 @@
 }
 
 .button-element:hover {
+    color: #ffffff;
+    background: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-element:focus {
     color: #ffffff;
     background: #2196f3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
