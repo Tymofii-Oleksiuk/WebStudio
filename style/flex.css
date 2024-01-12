@@ -21,6 +21,11 @@
     align-items: center;
     gap: 50px;
 }
+.info-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .header-link-info {
     display: flex;
