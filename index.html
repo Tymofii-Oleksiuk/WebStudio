@@ -417,13 +417,15 @@
                     </li>
                 </ul>
                 <p class="reviews-about">Коментар</p>
-                <input class="reviews-comment" type="text" placeholder="Введіть текст">
+                <textarea minlength="0" maxlength="200" name="reviews_place" rows="s"
+                    placeholder="Введіть текст"></textarea>
                 <div class="agreement-box">
-                    <svg class="agreement-icon">
-                        <use href="./img/symbol-defs.svg#icon-check-mark"></use>
-                    </svg>
-                    <h4 class="agreement-title">Погоджуюся з розсилкою та приймаю <span class="agreement-link">Умови
-                            договору</span></h4>
+                    <input type="checkbox" class="agreement-title">
+                    <p class="agreement-text">Погоджуюся з розсилкоюта приймаю
+                        <span>
+                            <a class="agreement-link" href=""> Умови договору</a>
+                        </span>
+                    </p>
                 </div>
                 <button type="submit" class="modal-send">Відправити</button>
             </form>

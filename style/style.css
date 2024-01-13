@@ -471,6 +471,7 @@
 }
 
 .modal {
+    transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -576,7 +577,21 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.12px;
+    margin-bottom: 4px;
+}
 
+textarea {
+    width: 448px;
+    height: 120px;
+    padding: 12px 16px 96px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    resize: none;
+}
+
+textarea:hover {
+    cursor: pointer;
+    border: 1px solid #2196F3;
 }
 
 .reviews-comment {
@@ -585,6 +600,7 @@
     padding: 12px 16px 96px 16px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+    resize: none;
 }
 
 .reviews-comment::placeholder {
@@ -600,6 +616,7 @@
 
 .agreement-box {
     display: flex;
+    justify-content: center;
 }
 
 .agreement-icon {
@@ -617,8 +634,8 @@
     background-color: #2196F3;
 }
 
-.agreement-title {
-    margin-top: 20px;
+.agreement-text {
+    margin-left: 8.38px;
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
