@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="service-box">
                     <h1 class="service-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                    <button class="service-btn" type="button">Замовити послугу</button>
+                    <button data-modal-open class="service-btn" type="button">Замовити послугу</button>
                 </div>
         </section>
         <section class="details">
@@ -381,17 +381,31 @@
                         </li>
                     </ul>
                 </div>
+                <div class="footer-mailing-list">
+                    <div class="mailing-list-box">
+                        <h4 class="mailing-list-title">Підпишіться на розсилку</h4>
+                        <input class="mailing-list-input" type="email" placeholder="E-mail">
+                    </div>
+                    <button class="mailing-list-btn">
+                        <p class="mailing-btn-title">Підписатися</p>
+                        <svg class="mailing-list-icon">
+                            <use href="./img/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+
+
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <form action="modal-form">
-                <div class="modal-box">
+            <form action="modal-form" data-modal-close>
+                <button class="modal-close">
                     <svg class="modal-dagger">
                         <use href="./img/symbol-defs.svg#icon-close-black"></use>
                     </svg>
-                </div>
+                </button>
                 <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
                 <ul class="modal-list">
                     <li class="modal-item">
@@ -431,6 +445,9 @@
             </form>
         </div>
     </div>
+
+
+    <script src=".//js/modal.js"></script>
 </body>
 
 </html>
