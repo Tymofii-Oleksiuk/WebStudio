@@ -398,10 +398,10 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div data-modal class="backdrop is-hidden">
         <div class="modal">
-            <form action="modal-form" data-modal-close>
-                <button class="modal-close">
+            <form action="">
+                <button data-modal-close class="modal-close">
                     <svg class="modal-dagger">
                         <use href="./img/symbol-defs.svg#icon-close-black"></use>
                     </svg>
@@ -409,32 +409,32 @@
                 <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
                 <ul class="modal-list">
                     <li class="modal-item">
-                        <p class="modal-about">Ім'я</p>
-                        <input class="modal-input" type="text">
+                        <label for="name" class="modal-about">Ім'я</label>
+                        <input required class="modal-input" id="name" type="text">
                         <svg class="modal-icon">
                             <use href="./img/symbol-defs.svg#icon-person-black"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
-                        <p class="modal-about">Телефон</p>
-                        <input class="modal-input" type="text">
+                        <label for="phone" class="modal-about">Телефон</label>
+                        <input required class="modal-input" id="phone" type="text">
                         <svg class="modal-icon">
                             <use href="./img/symbol-defs.svg#icon-phone-black"></use>
                         </svg>
                     </li>
                     <li class="modal-item">
-                        <p class="modal-about">Пошта</p>
-                        <input class="modal-input" type="text">
+                        <label for="post" class="modal-about">Пошта</label>
+                        <input required class="modal-input" id="post" type="text">
                         <svg class="modal-icon">
                             <use href="./img/symbol-defs.svg#icon-email-black"></use>
                         </svg>
                     </li>
                 </ul>
                 <p class="reviews-about">Коментар</p>
-                <textarea minlength="0" maxlength="200" name="reviews_place" rows="s"
+                <textarea required minlength="10" maxlength="200" name="reviews_place" rows="s"
                     placeholder="Введіть текст"></textarea>
                 <div class="agreement-box">
-                    <input type="checkbox" class="agreement-title">
+                    <input required type="checkbox" class="agreement-title">
                     <p class="agreement-text">Погоджуюся з розсилкоюта приймаю
                         <span>
                             <a class="agreement-link" href=""> Умови договору</a>
@@ -447,7 +447,8 @@
     </div>
 
 
-    <script src=".//js/modal.js"></script>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

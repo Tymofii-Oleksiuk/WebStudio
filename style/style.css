@@ -568,6 +568,10 @@
     fill: #2196F3;
 }
 
+.modal-close:focus .modal-dagger {
+    fill: #2196F3;
+}
+
 .modal-dagger {
     width: 18px;
     height: 18px;
@@ -631,10 +635,20 @@
     border: 1px solid #2196F3;
 }
 
+.modal-input:focus{
+    cursor: pointer;
+    border: 1px solid #2196F3;
+}
+
 
 .modal-input:hover+.modal-icon {
     fill: #2196F3;
 }
+
+.modal-input:focus+.modal-icon {
+    fill: #2196F3;
+}
+
 
 .reviews-about {
     margin-top: 10px;
@@ -687,21 +701,6 @@ textarea:hover {
     justify-content: center;
 }
 
-.agreement-icon {
-    border-radius: 3px;
-    border: 2px solid #212121;
-    margin-top: 25px;
-    margin-right: 8.38px;
-    width: 16px;
-    height: 15px;
-}
-
-.agreement-icon:hover {
-    cursor: pointer;
-    border: none;
-    background-color: #2196F3;
-}
-
 .agreement-text {
     margin-left: 8.38px;
     color: #757575;
@@ -743,4 +742,9 @@ textarea:hover {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
 }
