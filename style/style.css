@@ -13,14 +13,8 @@
     font-weight: 700;
 }
 
-.nav-link {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.nav-link-text::after {
-    opacity: 0;
+.your-place::after {
+    opacity: 1;
     top: 45px;
     position: absolute;
     display: block;
@@ -31,8 +25,22 @@
     background: #2196F3;
 }
 
+.nav-link {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 .nav-link-text:hover::after {
     opacity: 1;
+    top: 45px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background: #2196F3;
 }
 
 .nav-link-text {
@@ -363,7 +371,7 @@
     height: 294px;
     background: rgba(33, 150, 243, 0.90);
     transform: translatey(100%);
-    transition: transform 250ms ease-in-out;
+    transition: 250ms ease-in-out;
 }
 
 .img-focus:hover .overlay {
