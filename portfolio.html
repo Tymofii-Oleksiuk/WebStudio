@@ -25,13 +25,13 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
+    <header class="header portfolio-header">
+        <div class="container header-conainer">
             <nav class="header-nav">
                 <a class="logo" href="">Web<span class="logo-black">Studio</span></a>
                 <div class="header-box">
                     <ul class="nav-list-menu">
-                        <li class="menu-item">
+                        <li class="nav-link">
                             <a class="nav-link-text" href="./index.html">Студія</a>
                         </li>
                         <li class="nav-link">
@@ -90,7 +90,15 @@
                 <ul class="img-list">
                     <li class="img-item">
                         <a href="" class="img-focus">
-                            <img class="img-vew" src="./img/computer2.jpg" alt="Технокряк" />
+                            <div class="img-overlay">
+                                <img class="img-vew" src="./img/computer2.jpg" alt="Технокряк" />
+                                <div class="overlay">
+                                    <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                        функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні
+                                        відомості
+                                        про компанію чи приватну особу.</p>
+                                </div>
+                            </div>
                             <h3 class="portfolio-title">Технокряк</h3>
                             <p class="portfolio-discription">Веб-сайт</p>
                         </a>
@@ -204,6 +212,18 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer-mailing-list">
+                    <div class="mailing-list-box">
+                        <h4 class="mailing-list-title">Підпишіться на розсилку</h4>
+                        <input class="mailing-list-input" type="email" placeholder="E-mail">
+                    </div>
+                    <button class="mailing-list-btn">
+                        <p class="mailing-btn-title">Підписатися</p>
+                        <svg class="mailing-list-icon">
+                            <use href="./img/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>

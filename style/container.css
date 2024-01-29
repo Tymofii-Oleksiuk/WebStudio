@@ -4,12 +4,12 @@
 }
 
 .header {
-    border-bottom: 1px solid #ECECEC;
     height: 80px;
+    border-bottom: 1 px solid #ECECEC;
 }
 
-.nav-list-menu {
-    padding: 25px 0px;
+.portfolio-header {
+    border-bottom: 1px solid #ECECEC;
 }
 
 .service {
