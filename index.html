@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -27,18 +29,16 @@
 
     <link rel="stylesheet" href="./style/flex.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
-                <a class="logo" href="">Web<span class="logo-black">Studio</span></a>
+                <a class="animate__animated animate__backInLeft  logo" href="">Web<span
+                        class="logo-black">Studio</span></a>
                 <div class="header-box">
-                    <ul class="nav-list-menu">
+                    <ul class="animate__backInDown animate__animated nav-list-menu">
                         <li class="nav-link">
                             <a class="nav-link-text your-place-text your-place" href="./index.html">Студія</a>
                         </li>
@@ -49,7 +49,7 @@
                             <a class="nav-link-text" href="">Контакти</a>
                         </li>
                     </ul>
-                    <ul class="nav-list-info">
+                    <ul class="animate__backInRight animate__animated nav-list-info">
                         <li class="info-item">
                             <a class="header-link-info" href="mailto:info@devstudio.com">
                                 <svg class="header-icon">
@@ -72,32 +72,33 @@
         </div>
     </header>
     <main>
-        <section data-aos="fade-left" data-aos-duration="1000" class="service">
+        <section class="service">
             <div class="container">
-                <div class="service-box">
-                    <h1 class="service-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <div class="animate__bounceInUp animate__animated service-box">
+                    <h1 class="service-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+                    </h1>
                     <button data-modal-open class="service-btn" type="button">Замовити послугу</button>
                 </div>
         </section>
         <section class="details">
             <div class="container">
                 <ul class="details-list">
-                    <li class="details-item">
+                    <li data-aos="fade-right" class="details-item">
                         <h3 class="details-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p class="details-discription">Ідейні міркування, і навіть початок повсякденної роботи з
                             формування позиції.</p>
                     </li>
-                    <li class="details-item1">
+                    <li data-aos="fade-up" class="details-item1">
                         <h3 id="details-title" class="details-title">ПУНКТУАЛЬНІСТЬ</h3>
                         <p class="details-discription">Завдання організації, особливо рамки і місце навчання кадрів
                             тягне у себе.</p>
                     </li>
-                    <li class="details-item2">
+                    <li data-aos="fade-up" class="details-item2">
                         <h3 class="details-title">ПЛАНУВАННЯ</h3>
                         <p class="details-discription">Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
-                    <li class="details-item3">
+                    <li data-aos="fade-left" class="details-item3">
                         <h3 class="details-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p class="details-discription">Значимість цих проблем настільки очевидна, що реалізація планових
                             завдань.</p>
@@ -448,13 +449,12 @@
         </div>
     </div>
 
-    <script src="./js/modal.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>
